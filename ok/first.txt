@@ -1,0 +1,94 @@
+Chapter 2: Basics
+Variables:
+
+Syntax: variable_name = value
+Rules:
+Cannot start with a digit.
+Case-sensitive (Var ≠ var).
+Types: int, float, str (determined dynamically).
+Arithmetic Operators:
+
++, -, *, /, //, %
+Order: Parentheses > Exponentiation > Multiplication/Division/Modulo > Addition/Subtraction.
+Dividing by zero raises an error.
+Built-in Functions:
+
+print(): Displays content.
+input(): Reads user input as a string (convert using int() or float() as needed).
+
+
+Chapter 3: Control Statements
+if-else Statements:
+
+python
+Copy code
+if condition:
+    statement
+else:
+    statement
+Use elif for multiple conditions.
+Loops:
+
+while Loop: Repeats while the condition is true.
+
+python
+Copy code
+while condition:
+    statement
+for Loop: Iterates over sequences.
+
+python
+Copy code
+for variable in sequence:
+    statement
+Range Function:
+
+range(stop)
+range(start, stop, step) for number sequences.
+
+Chapter 4: Functions
+Defining Functions:
+
+python
+Copy code
+def function_name(parameters):
+    """Docstring: Describes function."""
+    return value  # Optional
+Arguments:
+
+Positional: Pass in standard order.
+Keyword: Use parameter=value.
+Scope:
+
+Local: Defined inside the function.
+Global: Defined outside all functions.
+
+
+Chapter 5: Sequences
+Lists:
+
+Mutable, Ordered.
+Create: L = [1, 2, 3]
+Access: L[0], L[-1]
+Modify:
+Assign: L[index] = value
+Append: L.append(value)
+Delete: del L[index]
+Tuples:
+
+Immutable, Ordered.
+Create: T = (1, 2, 3)
+Supports slicing, packing, and unpacking like lists.
+Slicing:
+
+Syntax: sequence[start:end:step]
+Defaults: Start = 0, End = len(sequence), Step = 1.
+List Methods:
+
+Append: L.append(value)
+Extend: L.extend(iterable)
+Remove: L.remove(value)
+Sort: L.sort()
+Reverse: L.reverse()
+Clear: L.clear()
+

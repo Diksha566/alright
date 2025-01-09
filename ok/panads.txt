@@ -1,0 +1,7 @@
+pands
+
+Series: One-dimensional labeled array, similar to a list or a column in a spreadsheet.
+DataFrame: Two-dimensional, tabular data structure with labeled rows and columns (like a spreadsheet or SQL table).
+File I/O:
+
+Easily read and write data in various formats like CSV, Excel, JSON, SQL, etc.
